@@ -1,5 +1,10 @@
 name: Daves Youtube Demo Action
 description: This action greets persons
+inputs:
+  person:
+    description: 'The person to greet'
+    required: true
+    default: 'Monolisa Octocat'
 runs:
   using: node16
   main: src/index.js
