@@ -1,0 +1,5 @@
+name: Daves Youtube Demo Action
+description: This action greets persons
+runs:
+  using: node16
+  main: src/index.js
